@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Films & séries - Chantal Furnon</title>
+<meta name="description" content="Films et séries préférés de Chantal Furnon.">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<canvas id="starfield" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-brand" href="../index.html"><span class="dot"></span> Chantal Furnon</a>
+      <button class="nav-toggle" aria-label="Ouvrir le sommaire" aria-expanded="false">☰</button>
+      <div class="sommaire">
+        <a href="../index.html">Accueil</a>
+        <a href="../cv.html">CV</a>
+        <a href="../projets.html">Projets</a>
+        <div class="nav-item">
+        <a href="../passions.html" aria-current="page">Passions</a>
+        <div class="dropdown">
+          <a href="cinema.html">Films & séries</a>
+          <a href="musique.html">Musique</a>
+          <a href="jeux-video.html">Jeux vidéo</a>
+          <a href="psychologie.html">Psychologie & neurosciences</a>
+          <a href="anime.html">Anime & manga</a>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+<main>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Passions</span>
+      <h1>Films et séries</h1>
+      <p>Passe le curseur sur une affiche pour voir le résumé. Retrouve tout mon suivi sur Letterboxd.</p>
+      <a class="btn" href="https://boxd.it/9fd0F" target="_blank" rel="noopener" style="margin-top:1rem;"><img src="../assets/images/letterboxd-logo.png" alt="Letterboxd" width="48" height="31"> Mon profil Letterboxd</a>
+    </div>
+
+    <h2 style="font-size:1.2rem;margin-bottom:1.2rem;">Films coup de cœur</h2>
+    <div class="card-grid hide-title-tab">
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-perfect-blue.jpg" data-fallback-label="cinema-perfect-blue.jpg" alt="Affiche : Perfect Blue">
+        </div>
+        <div class="title-tab"><h3>Perfect Blue</h3><span style="font-size:.78rem;color:var(--jelly);">Film</span></div>
+        <div class="info">
+          <h3>Perfect Blue</h3>
+          <p>Une ex idole pop bascule dans la confusion entre son ancienne image publique et son identité réelle, alors qu'un harceleur brouille la frontière entre réalité et fiction.</p>
+          <div class="tags"><span class="tag">Animation</span><span class="tag">Thriller psychologique</span></div>
+        </div>
+      </div>
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-12-angry-men.jpg" data-fallback-label="cinema-12-angry-men.jpg" alt="Affiche : 12 Angry Men">
+        </div>
+        <div class="title-tab"><h3>12 Angry Men</h3><span style="font-size:.78rem;color:var(--jelly);">Film</span></div>
+        <div class="info">
+          <h3>12 Angry Men</h3>
+          <p>Douze jurés doivent statuer à l'unanimité sur la culpabilité d'un jeune accusé de meurtre, un huis clos qui devient un examen des préjugés de chacun.</p>
+          <div class="tags"><span class="tag">Drame</span><span class="tag">Huis clos</span></div>
+        </div>
+      </div>
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-im-your-man.jpg" data-fallback-label="cinema-im-your-man.jpg" alt="Affiche : I'm Your Man">
+        </div>
+        <div class="title-tab"><h3>I'm Your Man</h3><span style="font-size:.78rem;color:var(--jelly);">Film</span></div>
+        <div class="info">
+          <h3>I'm Your Man</h3>
+          <p>Une chercheuse teste un compagnon robot conçu pour être le partenaire idéal, ce qui l'oblige à interroger ce qu'elle attend vraiment de l'amour.</p>
+          <div class="tags"><span class="tag">Science-fiction</span><span class="tag">Romance</span></div>
+        </div>
+      </div>
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-chat-potte.jpg" data-fallback-label="cinema-chat-potte.jpg" alt="Affiche : Le Chat Potté : La dernière quête">
+        </div>
+        <div class="title-tab"><h3>Le Chat Potté : La dernière quête</h3><span style="font-size:.78rem;color:var(--jelly);">Film</span></div>
+        <div class="info">
+          <h3>Le Chat Potté : La dernière quête</h3>
+          <p>Après avoir brûlé par insouciance huit de ses neuf vies, le légendaire Chat potté se lance à la recherche de la mythique Étoile à vœu pour retrouver ses vies perdues.</p>
+          <div class="tags"><span class="tag">Science-fiction</span><span class="tag">Romance</span></div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="font-size:1.2rem;margin:2.6rem 0 1.2rem;">Séries préférées</h2>
+    <div class="card-grid hide-title-tab">
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-elementary.jpg" data-fallback-label="cinema-elementary.jpg" alt="Affiche : Elementary">
+        </div>
+        <div class="title-tab"><h3>Elementary</h3><span style="font-size:.78rem;color:var(--jelly);">Série</span></div>
+        <div class="info">
+          <h3>Elementary</h3>
+          <p>Une relecture moderne de Sherlock Holmes installé à New York, épaulé par le docteur Joan Watson, enquêtant sur des affaires criminelles complexes.</p>
+          <div class="tags"><span class="tag">Policier</span></div>
+        </div>
+      </div>
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-dr-house.jpg" data-fallback-label="cinema-dr-house.jpg" alt="Affiche : Dr. House">
+        </div>
+        <div class="title-tab"><h3>Dr. House</h3><span style="font-size:.78rem;color:var(--jelly);">Série</span></div>
+        <div class="info">
+          <h3>Dr. House</h3>
+          <p>Un médecin diagnosticien brillant et provocateur résout des cas médicaux impossibles tout en s'affrontant aux conventions de son hôpital.</p>
+          <div class="tags"><span class="tag">Médical</span></div>
+        </div>
+      </div>
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-the-office.jpg" data-fallback-label="cinema-the-office.jpg" alt="Affiche : The Office">
+        </div>
+        <div class="title-tab"><h3>The Office</h3><span style="font-size:.78rem;color:var(--jelly);">Série</span></div>
+        <div class="info">
+          <h3>The Office</h3>
+          <p>Le quotidien absurde et attachant des employés d'une entreprise de papier, filmé sous forme de faux documentaire.</p>
+          <div class="tags"><span class="tag">Comédie</span></div>
+        </div>
+      </div>
+      <div class="hover-card" tabindex="0">
+        <div class="bg-blur"></div>
+        <div class="cover">
+          <img src="../assets/images/cinema-sex-and-the-city.jpg" data-fallback-label="cinema-sex-and-the-city.jpg" alt="Affiche : Sex and the City">
+        </div>
+        <div class="title-tab"><h3>Sex and the City</h3><span style="font-size:.78rem;color:var(--jelly);">Série</span></div>
+        <div class="info">
+          <h3>Sex and the City</h3>
+          <p>Les aventures amoureuses et professionnelles de quatre femmes vivant à New York.</p>
+          <div class="tags"><span class="tag">Drame</span></div>
+        </div>
+      </div>
+  </div>
+</section>
+
+</main>
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div class="footer-links">
+        <a href="../passions.html">En apprendre plus sur moi</a>
+        <a href="mailto:chantal.furnon2005@gmail.com">Me contacter</a>
+      </div>
+      <p class="footer-note">Portfolio de Chantal Furnon, mis à jour à la main, une carte à la fois.</p>
+    </div>
+  </footer>
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>
